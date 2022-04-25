@@ -5,8 +5,8 @@
         class="upload-demo"
         drag
         action=""
-        multiple
         :auto-upload="false"
+        multiple
         :show-file-list="showFileList"
         :multiple="false"
         :limit="fileListLimit"
@@ -141,7 +141,6 @@ export default {
       },
       handleOnChange(file, fileList){
           //console.log(file)
-          
           //if(!fileList) return
           this.fileList = fileList
       },
