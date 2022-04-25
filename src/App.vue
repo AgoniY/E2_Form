@@ -1,6 +1,6 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link> |
+  <div id="nav" v-show="false">
+    <router-link to="/Home">Home</router-link> |
     <router-link to="/about">About</router-link>
   </div>
   <router-view/>
