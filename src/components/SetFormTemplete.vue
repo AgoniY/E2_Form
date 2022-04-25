@@ -141,7 +141,7 @@ export default {
       },
       handleOnChange(file, fileList){
           //console.log(file)
-          if(!fileList) return
+          //if(!fileList) return
           this.fileList = fileList
       },
       handleOnRemove(file, fileList){

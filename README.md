@@ -30,6 +30,8 @@ TableName、YLZB、DataName、Column、BroadHead、Partten、ControlType。
 0421问题:
 为什么正则匹配删除\r\n导致字段缺失
 
+## Element Plus set 
+变更目录为：element-plus/theme-chalk/index.css
 
 
 ## Project setup
